@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Matriz[3][3],soma=0, somaDiagonal=0, l,c
+
+		para (l=0;l<3;l++)
+		{
+			para (c=0;c<3;c++)
+		{
+			escreva("Escreva um valor: ")
+			leia(Matriz[l][c])
+			soma+=Matriz[l][c] 
+		    se (l==c)
+		    {
+		    	somaDiagonal+=Matriz[l][c]
+		    
+		    }	
+		}
+		
+		}
+		escreva("\nA soma da matriz é: ",soma)
+		escreva("\nA soma da matriz na diagonal é: ",somaDiagonal)
+		
+		
+	}
+}
